@@ -8,7 +8,7 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 dotenv.config();
 
-// database connection
+// database connection to be set
 const db = require("./helpers/db");
 db();
 
